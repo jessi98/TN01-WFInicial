@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.Write("Digite o primeiro número: ");
-            int num1 = int.Parse(Console.ReadLine());
+            int num1 = int.Parse(Console.ReadLine()!);
             Console.Write("\nDigite o segundo número: ");
             int num2 = Convert.ToInt32(Console.ReadLine());
 

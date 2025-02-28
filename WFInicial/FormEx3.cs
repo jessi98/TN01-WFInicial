@@ -16,5 +16,23 @@ namespace WFInicial
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMaior_Click(object sender, EventArgs e)
+        {
+            int num1 = int.Parse(txtNum1.Text);
+            int num2 = int.Parse(txtNum2.Text);
+
+            int maior = Math.Max(num1, num2);
+
+            string mensagem = $"O número {maior} é o maior número!";
+
+            MessageBox.Show(mensagem, "Info",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

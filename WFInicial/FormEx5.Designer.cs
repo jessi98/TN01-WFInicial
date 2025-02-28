@@ -34,7 +34,7 @@
             lblNum2 = new Label();
             txtNum1 = new TextBox();
             lblNum1 = new Label();
-            btnMaior = new Button();
+            btnMaiorMenor = new Button();
             SuspendLayout();
             // 
             // txtNum3
@@ -43,7 +43,6 @@
             txtNum3.Name = "txtNum3";
             txtNum3.Size = new Size(100, 23);
             txtNum3.TabIndex = 13;
-            txtNum3.TextChanged += txtNum3_TextChanged;
             // 
             // lblNum3
             // 
@@ -53,7 +52,6 @@
             lblNum3.Size = new Size(60, 15);
             lblNum3.TabIndex = 12;
             lblNum3.Text = "Número 3";
-            lblNum3.Click += this.lblNum3_Click;
             // 
             // txtNum2
             // 
@@ -61,7 +59,6 @@
             txtNum2.Name = "txtNum2";
             txtNum2.Size = new Size(100, 23);
             txtNum2.TabIndex = 11;
-            txtNum2.TextChanged += this.txtNum2_TextChanged;
             // 
             // lblNum2
             // 
@@ -71,7 +68,6 @@
             lblNum2.Size = new Size(60, 15);
             lblNum2.TabIndex = 10;
             lblNum2.Text = "Número 2";
-            lblNum2.Click += this.lblNum2_Click;
             // 
             // txtNum1
             // 
@@ -79,7 +75,6 @@
             txtNum1.Name = "txtNum1";
             txtNum1.Size = new Size(100, 23);
             txtNum1.TabIndex = 9;
-            txtNum1.TextChanged += this.txtNum1_TextChanged;
             // 
             // lblNum1
             // 
@@ -89,30 +84,29 @@
             lblNum1.Size = new Size(60, 15);
             lblNum1.TabIndex = 8;
             lblNum1.Text = "Número 1";
-            lblNum1.Click += this.lblNum1_Click;
             // 
-            // btnMaior
+            // btnMaiorMenor
             // 
-            btnMaior.Location = new Point(90, 205);
-            btnMaior.Name = "btnMaior";
-            btnMaior.Size = new Size(129, 23);
-            btnMaior.TabIndex = 7;
-            btnMaior.Text = "Maior Número";
-            btnMaior.UseVisualStyleBackColor = true;
-            btnMaior.Click += this.btnMaior_Click;
+            btnMaiorMenor.Location = new Point(66, 202);
+            btnMaiorMenor.Name = "btnMaiorMenor";
+            btnMaiorMenor.Size = new Size(155, 23);
+            btnMaiorMenor.TabIndex = 14;
+            btnMaiorMenor.Text = "Mostrar Maior e Menor";
+            btnMaiorMenor.UseVisualStyleBackColor = true;
+            btnMaiorMenor.Click += btnMaiorMenor_Click_1;
             // 
             // FormEx5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(310, 274);
+            Controls.Add(btnMaiorMenor);
             Controls.Add(txtNum3);
             Controls.Add(lblNum3);
             Controls.Add(txtNum2);
             Controls.Add(lblNum2);
             Controls.Add(txtNum1);
             Controls.Add(lblNum1);
-            Controls.Add(btnMaior);
             Name = "FormEx5";
             Text = "FormEx5";
             ResumeLayout(false);
@@ -127,6 +121,6 @@
         private Label lblNum2;
         private TextBox txtNum1;
         private Label lblNum1;
-        private Button btnMaior;
+        private Button btnMaiorMenor;
     }
 }

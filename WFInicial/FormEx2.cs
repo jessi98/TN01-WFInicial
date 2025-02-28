@@ -26,7 +26,6 @@ namespace WFInicial
             {
                 case 1:
                     MessageBox.Show("Domingo");
-
                     break;
                 case 2:
                     MessageBox.Show("Segunda-feira");

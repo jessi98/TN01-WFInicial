@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WFInicial", "WFInicial\WFIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CEx1", "ConsoleRevisaoAula\CEx1.csproj", "{316D4E1A-FB8A-497A-ABB7-2109E386EBD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEx2", "CEx2\CEx2.csproj", "{FE2CA76B-958F-4B80-A027-4DE0E00D299C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{316D4E1A-FB8A-497A-ABB7-2109E386EBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{316D4E1A-FB8A-497A-ABB7-2109E386EBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{316D4E1A-FB8A-497A-ABB7-2109E386EBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2CA76B-958F-4B80-A027-4DE0E00D299C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2CA76B-958F-4B80-A027-4DE0E00D299C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2CA76B-958F-4B80-A027-4DE0E00D299C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2CA76B-958F-4B80-A027-4DE0E00D299C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

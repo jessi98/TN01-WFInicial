@@ -36,13 +36,17 @@
             btnEx6 = new Button();
             btnEx7 = new Button();
             btnEx8 = new Button();
+            btnEx12 = new Button();
+            btnEx11 = new Button();
+            btnEx9 = new Button();
+            btnEx10 = new Button();
             SuspendLayout();
             // 
             // btnEx1
             // 
-            btnEx1.Location = new Point(60, 52);
+            btnEx1.Location = new Point(26, 61);
             btnEx1.Name = "btnEx1";
-            btnEx1.Size = new Size(75, 23);
+            btnEx1.Size = new Size(90, 23);
             btnEx1.TabIndex = 0;
             btnEx1.Text = "Exercício 1";
             btnEx1.UseVisualStyleBackColor = true;
@@ -50,9 +54,9 @@
             // 
             // btnEx2
             // 
-            btnEx2.Location = new Point(141, 52);
+            btnEx2.Location = new Point(122, 61);
             btnEx2.Name = "btnEx2";
-            btnEx2.Size = new Size(75, 23);
+            btnEx2.Size = new Size(90, 23);
             btnEx2.TabIndex = 1;
             btnEx2.Text = "Exercício 2";
             btnEx2.UseVisualStyleBackColor = true;
@@ -60,9 +64,9 @@
             // 
             // btnEx3
             // 
-            btnEx3.Location = new Point(222, 52);
+            btnEx3.Location = new Point(220, 61);
             btnEx3.Name = "btnEx3";
-            btnEx3.Size = new Size(75, 23);
+            btnEx3.Size = new Size(90, 23);
             btnEx3.TabIndex = 3;
             btnEx3.Text = "Exercício 3";
             btnEx3.UseVisualStyleBackColor = true;
@@ -70,9 +74,9 @@
             // 
             // btnEx4
             // 
-            btnEx4.Location = new Point(303, 52);
+            btnEx4.Location = new Point(316, 61);
             btnEx4.Name = "btnEx4";
-            btnEx4.Size = new Size(75, 23);
+            btnEx4.Size = new Size(90, 23);
             btnEx4.TabIndex = 2;
             btnEx4.Text = "Exercício 4";
             btnEx4.UseVisualStyleBackColor = true;
@@ -80,9 +84,9 @@
             // 
             // btnEx5
             // 
-            btnEx5.Location = new Point(60, 92);
+            btnEx5.Location = new Point(26, 101);
             btnEx5.Name = "btnEx5";
-            btnEx5.Size = new Size(75, 23);
+            btnEx5.Size = new Size(90, 23);
             btnEx5.TabIndex = 5;
             btnEx5.Text = "Exercício 5";
             btnEx5.UseVisualStyleBackColor = true;
@@ -90,9 +94,9 @@
             // 
             // btnEx6
             // 
-            btnEx6.Location = new Point(141, 92);
+            btnEx6.Location = new Point(122, 101);
             btnEx6.Name = "btnEx6";
-            btnEx6.Size = new Size(75, 23);
+            btnEx6.Size = new Size(90, 23);
             btnEx6.TabIndex = 4;
             btnEx6.Text = "Exercício 6";
             btnEx6.UseVisualStyleBackColor = true;
@@ -100,9 +104,9 @@
             // 
             // btnEx7
             // 
-            btnEx7.Location = new Point(222, 92);
+            btnEx7.Location = new Point(220, 101);
             btnEx7.Name = "btnEx7";
-            btnEx7.Size = new Size(75, 23);
+            btnEx7.Size = new Size(90, 23);
             btnEx7.TabIndex = 6;
             btnEx7.Text = "Exercício 7";
             btnEx7.UseVisualStyleBackColor = true;
@@ -110,19 +114,60 @@
             // 
             // btnEx8
             // 
-            btnEx8.Location = new Point(303, 92);
+            btnEx8.Location = new Point(316, 101);
             btnEx8.Name = "btnEx8";
-            btnEx8.Size = new Size(75, 23);
+            btnEx8.Size = new Size(90, 23);
             btnEx8.TabIndex = 7;
             btnEx8.Text = "Exercício 8";
             btnEx8.UseVisualStyleBackColor = true;
             btnEx8.Click += btnEx8_Click;
             // 
+            // btnEx12
+            // 
+            btnEx12.Location = new Point(316, 141);
+            btnEx12.Name = "btnEx12";
+            btnEx12.Size = new Size(90, 23);
+            btnEx12.TabIndex = 11;
+            btnEx12.Text = "Exercício 12";
+            btnEx12.UseVisualStyleBackColor = true;
+            // 
+            // btnEx11
+            // 
+            btnEx11.Location = new Point(220, 141);
+            btnEx11.Name = "btnEx11";
+            btnEx11.Size = new Size(90, 23);
+            btnEx11.TabIndex = 10;
+            btnEx11.Text = "Exercício 11";
+            btnEx11.UseVisualStyleBackColor = true;
+            // 
+            // btnEx9
+            // 
+            btnEx9.Location = new Point(26, 141);
+            btnEx9.Name = "btnEx9";
+            btnEx9.Size = new Size(90, 23);
+            btnEx9.TabIndex = 9;
+            btnEx9.Text = "Exercício 9";
+            btnEx9.UseVisualStyleBackColor = true;
+            btnEx9.Click += btnEx9_Click;
+            // 
+            // btnEx10
+            // 
+            btnEx10.Location = new Point(122, 141);
+            btnEx10.Name = "btnEx10";
+            btnEx10.Size = new Size(89, 23);
+            btnEx10.TabIndex = 8;
+            btnEx10.Text = "Exercício 10";
+            btnEx10.UseVisualStyleBackColor = true;
+            // 
             // FormMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(418, 164);
+            ClientSize = new Size(418, 225);
+            Controls.Add(btnEx12);
+            Controls.Add(btnEx11);
+            Controls.Add(btnEx9);
+            Controls.Add(btnEx10);
             Controls.Add(btnEx8);
             Controls.Add(btnEx7);
             Controls.Add(btnEx5);
@@ -146,5 +191,9 @@
         private Button btnEx6;
         private Button btnEx7;
         private Button btnEx8;
+        private Button btnEx12;
+        private Button btnEx11;
+        private Button btnEx9;
+        private Button btnEx10;
     }
 }
